@@ -11,6 +11,9 @@
 		F2BA4191292CFB8D003DA9ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA4190292CFB8D003DA9ED /* ContentView.swift */; };
 		F2BA4193292CFB8E003DA9ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BA4192292CFB8E003DA9ED /* Assets.xcassets */; };
 		F2BA4196292CFB8E003DA9ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BA4195292CFB8E003DA9ED /* Preview Assets.xcassets */; };
+		F2BA419D292CFBA9003DA9ED /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA419C292CFBA9003DA9ED /* FormView.swift */; };
+		F2BA41A0292CFBC7003DA9ED /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA419F292CFBC7003DA9ED /* Task.swift */; };
+		F2BA41A2292D042E003DA9ED /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA41A1292D042E003DA9ED /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F2BA4190292CFB8D003DA9ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2BA4192292CFB8E003DA9ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BA4195292CFB8E003DA9ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2BA419C292CFBA9003DA9ED /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		F2BA419F292CFBC7003DA9ED /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F2BA41A1292D042E003DA9ED /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		F2BA418D292CFB8D003DA9ED /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				F2BA419E292CFBB9003DA9ED /* Model */,
 				F2BA418E292CFB8D003DA9ED /* TodoApp.swift */,
 				F2BA4190292CFB8D003DA9ED /* ContentView.swift */,
+				F2BA41A1292D042E003DA9ED /* DetailView.swift */,
+				F2BA419C292CFBA9003DA9ED /* FormView.swift */,
 				F2BA4192292CFB8E003DA9ED /* Assets.xcassets */,
 				F2BA4194292CFB8E003DA9ED /* Preview Content */,
 			);
@@ -65,6 +74,14 @@
 				F2BA4195292CFB8E003DA9ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2BA419E292CFBB9003DA9ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA419F292CFBC7003DA9ED /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BA41A0292CFBC7003DA9ED /* Task.swift in Sources */,
+				F2BA419D292CFBA9003DA9ED /* FormView.swift in Sources */,
 				F2BA4191292CFB8D003DA9ED /* ContentView.swift in Sources */,
+				F2BA41A2292D042E003DA9ED /* DetailView.swift in Sources */,
 				F2BA418F292CFB8D003DA9ED /* TodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

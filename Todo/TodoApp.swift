@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TodoApp: App {
+   
+    
+    @StateObject var workflow = Workflow()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(workflow)
         }
     }
 }
